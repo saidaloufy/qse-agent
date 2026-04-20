@@ -1,77 +1,33 @@
-QSE Analyst Agent
-QATAR STOCK EXCHANGE · AI-POWERED TRADE DECISIONS
-
-CLAUDE AI · QSE EDITION
-SELECT QSE STOCK
-        — Choose a stock —
-        
-          QNBK — Qatar National Bank
-          MARK — Masraf Al Rayan
-          QIIK — Qatar Int'l Islamic Bank
-          CBQK — The Commercial Bank
-          DHBK — Doha Bank
-          QIBK — Qatar Islamic Bank
-          ABQK — Ahli Bank
-        
-        
-          QAMC — Qatar Aluminium Mfg
-          IQCD — Industries Qatar
-          QEWS — Qatar Electricity & Water
-          QGTS — Nakilat
-          GISS — Gulf Int'l Services
-        
-        
-          ORDS — Ooredoo
-          VFQS — Vodafone Qatar
-          BRES — Barwa Real Estate
-          UDCD — United Development
-        
-        
-          SIIS — Salam International
-          MERS — Al Meera
-          QATI — Qatar Insurance
-        
-        Other QSE Stock (manual)
-      
-
-📈 PRICE & MOVING AVERAGE
-Current Price (QAR)
-
-MA Value
-
-MA Direction
-Rising ↑Flat →Falling ↓
-Price vs MA
-Above MAAt MABelow MA
-
-📊 RSI
-RSI Value
-
-RSI Signal Line
-
-RSI Trend
-Rising ↑Flat →Falling ↓
-
-⚡ MOMENTUM
-Bar Color
-Green (Bullish)Red (Bearish)Mixed
-Strength
-Strong / GrowingWeak / ShrinkingNeutral
-
-🌍 MARKET CONTEXT
-Recent Price Action
-        Recovering from selloff
-        Breaking out upward
-        Consolidating sideways
-        In downtrend
-        Showing topping signs
-      
-Volume
-Above averageAverageBelow average
-52W Position
-Near 52W HighMid RangeNear 52W Low
-⚡ Analyze Now
-QSE context applied: Sun–Thu trading, thin liquidity, oil sensitivity, banking concentration & Islamic market seasonality factored in.
-📊
-Ready to Analyse
-Select a QSE stock, fill in your chart indicator readings, and get a full AI trade plan instantly.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QSE Analyst Agent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the QSE Analyst Agent Interface</h1>
+    </header>
+    <main>
+        <form id="analysis-form">
+            <label for="input-data">Input Data:</label>
+            <textarea id="input-data" name="input-data" rows="5" required></textarea>
+            <br>
+            <label for="select-options">Choose Analysis Type:</label>
+            <select id="select-options" name="analysis-type">
+                <option value="analysis1">Analysis 1</option>
+                <option value="analysis2">Analysis 2</option>
+                <option value="analysis3">Analysis 3</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
