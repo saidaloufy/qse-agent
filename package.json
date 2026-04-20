@@ -1,0 +1,8 @@
+{
+  "name": "qse-analyst-agent",
+  "version": "1.0.0",
+  "description": "QSE AI Analyst Agent — Qatar Stock Exchange",
+  "engines": {
+    "node": "18.x"
+  }
+}
